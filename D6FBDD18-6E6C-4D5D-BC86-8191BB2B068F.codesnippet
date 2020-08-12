@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>structcornershape</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>struct CornerShape: Shape {
+    
+    var size: CGSize
+    
+    func path(in rect: CGRect) -&gt; Path {
+        let path = UIBezierPath(roundedRect: rect, byRoundingCorners: [.topLeft, .topRight], cornerRadii: CGSize(width: size.width / 2, height: size.height / 2))
+        
+        return Path(path.cgPath)
+    }
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>D6FBDD18-6E6C-4D5D-BC86-8191BB2B068F</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>สร้าง มุม ให้กับ View</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Struct Corner Shape</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

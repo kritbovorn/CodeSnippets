@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>viewscrollviewlazyhgridwithimage</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>let data = 1...13
+    let rows = [
+        GridItem(.fixed(200))
+    ]
+    var body: some View {
+        
+        
+        ScrollView(.horizontal, showsIndicators: false, content: {
+            LazyHGrid(rows: rows ) {
+                ForEach(data, id: \.self) { index in
+                    Image("\(index)")
+                        .renderingMode(.original)
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .cornerRadius(&lt;#CGFloat#&gt;)
+                }
+            }
+            .padding(.horizontal)
+        })
+        
+    }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>00A20138-DA07-4FCE-B3F8-CEC7F046D49F</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>HGrid Image</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>ScrollView LazyHGridWithImage</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

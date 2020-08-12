@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>viewhstacklazyhstackimage</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>let data = (1...13)
+    let rows = [
+        GridItem(.fixed(220), spacing: nil, alignment: nil)
+    ]
+    var body: some View {
+        ScrollView(.horizontal, showsIndicators: true, content: {
+            LazyHGrid(rows: rows ) {
+                ForEach(data, id: \.self) { index in
+                    Image("img\(index)")
+                        .renderingMode(.original)
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .clipShape(Capsule())
+                        
+                }
+            }
+            .padding(.horizontal)
+        })
+    }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>7F87885D-5A43-4F04-B9F4-27808BB3D72E</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>View HStackImage</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>geometryreader7</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>GeometryReader { main in
+            VStack(spacing: 0) {
+                
+                // FIXME: - First
+                GeometryReader { first in
+                    EmptyView()
+                }
+                .frame(height: main.size.height * 0.1)
+                
+                // FIXME: - Second
+                GeometryReader { second in
+                    EmptyView()
+                }
+                .frame(height: main.size.height * 0.1)
+                
+                // FIXME: - Third
+                GeometryReader { third in
+                    EmptyView()
+                }
+                .frame(height: main.size.height * 0.1)
+                
+                // FIXME: - Forth
+                GeometryReader { forth in
+                    EmptyView()
+                }
+                .frame(height: main.size.height * 0.1)
+                
+                // FIXME: - Fifth
+                GeometryReader { fifth in
+                    EmptyView()
+                }
+                .frame(height: main.size.height * 0.1)
+                
+                // FIXME: - Six
+                GeometryReader { six in
+                    EmptyView()
+                }
+                .frame(height: main.size.height * 0.1)
+                
+                // FIXME: - Seven
+                GeometryReader { seven in
+                    EmptyView()
+                }
+                .frame(height: main.size.height * 0.4)
+            }
+        }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>FFBE2985-AD48-4753-AFD9-C6DFF0AE3C27</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>GeometryReader() 7 </string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

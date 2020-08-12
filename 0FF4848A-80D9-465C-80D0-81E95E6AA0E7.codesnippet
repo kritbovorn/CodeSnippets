@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>shadowoftext</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>                        .shadow(color: Color.black, radius: main.size.height * 0.01 * 0.05, x: main.size.height * 0.01 * 0.05, y: main.size.height * 0.01 * 0.05)
+                        .shadow(color: Color.blue, radius: main.size.height * 0.01 * 0.05, x: -main.size.height * 0.01 * 0.05, y: -main.size.height * 0.01 * 0.05)</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>0FF4848A-80D9-465C-80D0-81E95E6AA0E7</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Shadow of Text</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

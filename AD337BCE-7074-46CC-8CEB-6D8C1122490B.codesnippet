@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>viewgriditemlazyvstack</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>let data = (0...1000).map{"Row: \($0)"}
+    var columns = [
+        GridItem(.flexible(), spacing: nil, alignment: nil),
+        GridItem(.flexible(), spacing: nil, alignment: nil)
+    ]
+    var body: some View {
+        ScrollView(.vertical, showsIndicators: true, content: {
+            LazyVGrid(columns: columns, alignment: .center, spacing: nil) {
+                ForEach(data, id: \.self) { item in
+                    Text(item)
+                }
+            }
+        })
+    }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>AD337BCE-7074-46CC-8CEB-6D8C1122490B</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>View GridItem LazyVStack</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

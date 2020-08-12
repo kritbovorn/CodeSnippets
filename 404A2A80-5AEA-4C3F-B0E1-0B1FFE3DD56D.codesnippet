@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>structpolygonshape</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>struct PolygonShape: Shape {
+    var sides: Double
+    
+    func path(in rect: CGRect) -&gt; Path {
+        let h = Double(min(rect.size.width, rect.size.height)) / 2
+        let c = CGPoint(x: rect.size.width / 2, y: rect.size.height / 2)
+        var path = Path()
+        let extra: Int = Double(sides) != Double(Int(sides)) ? 1 : 0
+        
+        for i in 0..&lt;Int(sides) + extra {
+            let angle = (Double(i) * (360 / Double(sides))) * Double.pi / 180
+            let pt = CGPoint(x: c.x + CGFloat(cos(angle) * h), y: c.y + CGFloat(sin(angle) * h))
+            
+            if i == 0 {
+                path.move(to: pt)
+            }
+            else {
+                path.addLine(to: pt)
+            }
+        }
+        
+        path.closeSubpath()
+        
+        return path
+    }
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>404A2A80-5AEA-4C3F-B0E1-0B1FFE3DD56D</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>PolygonShape()</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

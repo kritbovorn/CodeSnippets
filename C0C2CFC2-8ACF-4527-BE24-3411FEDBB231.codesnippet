@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>geometryreader9</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>        GeometryReader { main in
+            VStack(spacing: 0) {
+                
+                // FIXME: - First
+                GeometryReader { first in
+                    EmptyView()
+                }
+                .frame(height: main.size.height * 0.1)
+                
+                // FIXME: - Second
+                GeometryReader { second in
+                    EmptyView()
+                }
+                .frame(height: main.size.height * 0.1)
+                
+                // FIXME: - Third
+                GeometryReader { third in
+                    EmptyView()
+                }
+                .frame(height: main.size.height * 0.1)
+                
+                // FIXME: - Forth
+                GeometryReader { forth in
+                    EmptyView()
+                }
+                .frame(height: main.size.height * 0.1)
+                
+                // FIXME: - Fifth
+                GeometryReader { fifth in
+                    EmptyView()
+                }
+                .frame(height: main.size.height * 0.1)
+                
+                // FIXME: - Six
+                GeometryReader { six in
+                    EmptyView()
+                }
+                .frame(height: main.size.height * 0.1)
+                
+                // FIXME: - Seven
+                GeometryReader { seven in
+                    EmptyView()
+                }
+                .frame(height: main.size.height * 0.1)
+                
+                // FIXME: - Eight
+                GeometryReader { eight in
+                    EmptyView()
+                }
+                .frame(height: main.size.height * 0.1)
+                
+                // FIXME: - Nine
+                GeometryReader { nine in
+                    EmptyView()
+                }
+                .frame(height: main.size.height * 0.2)
+            }
+    }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>C0C2CFC2-8ACF-4527-BE24-3411FEDBB231</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>GeometryReader()9</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

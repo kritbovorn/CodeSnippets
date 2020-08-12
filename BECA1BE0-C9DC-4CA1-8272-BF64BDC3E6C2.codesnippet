@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>labelwithimage</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>
+        Label {
+            Text(&lt;#String#&gt;)
+                .font(.largeTitle)
+                .foregroundColor(.secondary)
+                .padding()
+                .background(Color.gray.opacity(0.2))
+                .clipShape(Capsule())
+        } icon: {
+            Image(&lt;#Image#&gt;)
+                .resizable()
+                .aspectRatio(contentMode: .fill)
+                .clipShape(Circle())
+                .frame(width: &lt;#CGFloat#&gt;, height: &lt;#CGFloat#&gt;, alignment: .center)
+                
+        }
+    </string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>BECA1BE0-C9DC-4CA1-8272-BF64BDC3E6C2</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Label With image</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>viewmap</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>@State private var region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 13.691329, longitude: 100.464192), latitudinalMeters: 500, longitudinalMeters: 500)
+    var body: some View {
+        Map(coordinateRegion: $region)
+    }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>4E6B4168-A399-4668-B78F-3D98BBF3D912</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>แผนที่</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Map</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

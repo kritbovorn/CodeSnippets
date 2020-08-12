@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>scrollviewlazyvstack</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>        ScrollView(.vertical, showsIndicators: false, content: {
+            LazyVStack(alignment: .center, spacing: 0, content: {
+                ForEach(1...10, id: \.self) { &lt;#index#&gt; in
+                    Text("Placeholder \(&lt;#index#&gt;)")
+                }
+            })
+        })</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>D091FE1F-C3EA-414A-BC67-174DCD01AD46</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>ScrollView Lazy VStack</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
