@@ -3,34 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>layoutviewtocenter</string>
+	<string>proxyheight</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>VStack {
-                        Spacer()
-                        
-                        HStack {
-                            
-                            Spacer()
-                            
-                            &lt;#View#&gt;
-                            
-                            Spacer()
-                        }
-                        
-                        Spacer()
-                    }</string>
+	<string>func proxyHeight(for metric: GeometryProxy) -&gt; CGFloat {
+        let proxyHeight = metric.size.height
+        
+        return proxyHeight
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>859C784B-B964-4483-8D55-DC5DD7179DD6</string>
+	<string>EBBB5157-838F-4367-BE8A-57E3F220765D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>layout view to center by Stack</string>
+	<string>Function กำหนด Proxy height</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Layout View to center </string>
+	<string>Proxy Height</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
