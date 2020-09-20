@@ -17,54 +17,63 @@
                     EmptyView()
                 }
                 .frame(height: main.size.height * 0.1)
+                .background(Color.yellow)
                 
                 // FIXME: - Second
                 GeometryReader { second in
                     EmptyView()
                 }
                 .frame(height: main.size.height * 0.1)
+                .background(Color.red)
                 
                 // FIXME: - Third
                 GeometryReader { third in
                     EmptyView()
                 }
                 .frame(height: main.size.height * 0.1)
+                .background(Color.green)
                 
                 // FIXME: - Forth
                 GeometryReader { forth in
                     EmptyView()
                 }
                 .frame(height: main.size.height * 0.1)
+                .background(Color.blue)
                 
                 // FIXME: - Fifth
                 GeometryReader { fifth in
                     EmptyView()
                 }
                 .frame(height: main.size.height * 0.1)
+                .background(Color.yellow)
                 
                 // FIXME: - Six
                 GeometryReader { six in
                     EmptyView()
                 }
                 .frame(height: main.size.height * 0.1)
+                .background(Color.gray)
                 
                 // FIXME: - Seven
                 GeometryReader { seven in
                     EmptyView()
                 }
                 .frame(height: main.size.height * 0.1)
+                .background(Color.red)
                 
                 // FIXME: - Eight
                 GeometryReader { eight in
                     EmptyView()
                 }
                 .frame(height: main.size.height * 0.1)
+                .background(Color.green)
                 
                 // FIXME: - Nine
                 GeometryReader { nine in
                     EmptyView()
                 }
                 .frame(height: main.size.height * 0.2)
+                .background(Color.blue)
             }
     }</string>
 	<key>IDECodeSnippetIdentifier</key>

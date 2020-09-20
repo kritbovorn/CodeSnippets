@@ -17,42 +17,49 @@
                     EmptyView()
                 }
                 .frame(height: main.size.height * 0.1)
+                .background(Color.yellow)
                 
                 // FIXME: - Second
                 GeometryReader { second in
                     EmptyView()
                 }
                 .frame(height: main.size.height * 0.1)
+                .background(Color.red)
                 
                 // FIXME: - Third
                 GeometryReader { third in
                     EmptyView()
                 }
                 .frame(height: main.size.height * 0.1)
+                .background(Color.green)
                 
                 // FIXME: - Forth
                 GeometryReader { forth in
                     EmptyView()
                 }
                 .frame(height: main.size.height * 0.1)
+                .background(Color.blue)
                 
                 // FIXME: - Fifth
                 GeometryReader { fifth in
                     EmptyView()
                 }
                 .frame(height: main.size.height * 0.1)
+                .background(Color.yellow)
                 
                 // FIXME: - Six
                 GeometryReader { six in
                     EmptyView()
                 }
                 .frame(height: main.size.height * 0.1)
+                .background(Color.red)
                 
                 // FIXME: - Seven
                 GeometryReader { seven in
                     EmptyView()
                 }
                 .frame(height: main.size.height * 0.4)
+                .background(Color.green)
             }
         }</string>
 	<key>IDECodeSnippetIdentifier</key>
