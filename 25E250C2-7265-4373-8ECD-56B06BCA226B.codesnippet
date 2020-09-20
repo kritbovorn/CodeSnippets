@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>geometryforsubview</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>GeometryReader { main in
+            VStack(spacing: 0) {
+                
+                GeometryReader { geo in
+                    &lt;#EmptyView()#&gt;
+                }
+                .frame(height: main.size.height * 0.1)
+            }
+        }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>25E250C2-7265-4373-8ECD-56B06BCA226B</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Geometry for SubView</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Geometry SubView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
