@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>scrollviewhorizontal</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>ScrollView(.horizontal, showsIndicators: false) {
+                                        
+                                        HStack(spacing: proxyHeight(for: main) * 0.2) {
+                                            
+                                            ForEach(&lt;#Data#&gt;, id: \.self) { item in
+                                                
+                                                &lt;#View#&gt;
+                                            }
+                                        }
+                                        .padding(.horizontal)
+                                    }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>9DF0E812-249D-4BF9-BB55-C0CAA2E97F16</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>ScrollView Horizontal  with  GeometryProxy()</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>ScrollView Horizontal</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

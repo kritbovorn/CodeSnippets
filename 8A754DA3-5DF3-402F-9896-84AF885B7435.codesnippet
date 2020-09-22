@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>framemaxwidthmaxheight</string>
+	<string>framewidth</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>.frame(maxWidth: &lt;#T##CGFloat?#&gt;, maxHeight: &lt;#T##CGFloat?#&gt;)</string>
+	<string>frame(minWidth: &lt;#T##CGFloat?#&gt;, maxWidth: &lt;#T##CGFloat?#&gt;)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>C79C1D8F-7BC0-4E5B-9769-E8BD713980C1</string>
+	<string>8A754DA3-5DF3-402F-9896-84AF885B7435</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>minWidth: maxWidth</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Frame MaxWidth &amp; MaxHeight</string>
+	<string>Frame  ; MinWidth; MaxWidth</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -9,20 +9,21 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>        GeometryReader { main in
+	<string>GeometryReader { main in
             VStack(spacing: 0) {
                 
+                &lt;#View#&gt;
                 
             }
         }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>50FA99B0-62AF-4CAA-A79C-45CDD333DF03</string>
+	<string>FF384A45-F676-4980-A325-800FF4BC6FFA</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>Main Geometry</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Geometry</string>
+	<string>GemetryReader</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
