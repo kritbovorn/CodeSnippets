@@ -3,24 +3,34 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>paddinghorizontal</string>
+	<string>shapecorner</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>padding(.horizontal)</string>
+	<string>struct CustomCorner: Shape {
+    
+    var corners: UIRectCorner
+    var sizeFloat: CGFloat
+    
+    func path(in rect: CGRect) -&gt; Path {
+        let path = UIBezierPath(roundedRect: rect, byRoundingCorners: corners, cornerRadii: CGSize(width: sizeFloat, height: sizeFloat))
+        
+        return Path(path.cgPath)
+    }
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F7C993E7-5128-4C2D-9463-60BFC2E5ACE9</string>
+	<string>DBF6717A-E85A-4BC7-A902-59CF60644F4C</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>สร้าง มุม ให้กับ View</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Padding Horizontal</string>
+	<string>Shape Corner</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

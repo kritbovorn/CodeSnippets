@@ -3,24 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>paddinghorizontal</string>
+	<string>framemaxwidthmaxheight</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>padding(.horizontal)</string>
+	<string>.frame(maxWidth: &lt;#T##CGFloat?#&gt;, maxHeight: &lt;#T##CGFloat?#&gt;)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F7C993E7-5128-4C2D-9463-60BFC2E5ACE9</string>
+	<string>C79C1D8F-7BC0-4E5B-9769-E8BD713980C1</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Padding Horizontal</string>
+	<string>Frame MaxWidth &amp; MaxHeight</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

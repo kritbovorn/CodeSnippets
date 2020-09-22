@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>padding(.vertical, size.height * 0.1 * 0.2)</string>
+	<string>padding(.vertical)</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>3CF90572-CCE3-4846-8D23-61E41D617D28</string>
 	<key>IDECodeSnippetLanguage</key>
