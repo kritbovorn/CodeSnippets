@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>imagemodifierprotocol</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>protocol ImageModifier {
+    /// `Body` is derived from `View`
+    associatedtype Body : View
+
+    /// Modify an image by applying any modifications into `some View`
+    func body(image: Image) -&gt; Self.Body
+}
+
+
+extension Image {
+    func modifier&lt;M&gt;(_ modifier: M) -&gt; some View where M: ImageModifier {
+        modifier.body(image: self)
+    }
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>0B0C76E5-E2BD-4A9E-B7E3-1670F938AEFE</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>สร้าง Protocol เพื่อมารับค่า Image ให้สามารถ แสดง modifer สำหรับ Image View</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Protocol  ImageModifier</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
