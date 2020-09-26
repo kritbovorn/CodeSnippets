@@ -3,29 +3,34 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string></string>
+	<string>scrollviewvertical</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>GeometryReader { main in
-            VStack(spacing: 0) {
-                
-                
-            }
-        }</string>
+	<string>ScrollView(.vertical, showsIndicators: false, content: {
+                    
+    VStack(spacing: 0) {
+                        
+                        ForEach(&lt;#Data#&gt;, id: \.self) { i in
+                            
+                            &lt;#Data#&gt;
+                        }
+                    }
+                    .padding(.horizontal)
+                })</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>20919C18-1B3A-4762-B758-F63B645B6707</string>
+	<string>528E0C20-5CA8-4B97-AA2C-6A894529396F</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My Code Snippet</string>
+	<string>ScrollView Vertical</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

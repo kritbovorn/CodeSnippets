@@ -12,6 +12,7 @@
 	<string>struct &lt;#name#&gt;: View {
     
     var body: some View {
+        
         &lt;#View#&gt;
     }
     
