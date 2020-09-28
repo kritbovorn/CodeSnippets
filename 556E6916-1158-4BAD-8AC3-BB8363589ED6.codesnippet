@@ -3,34 +3,36 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>scrollviewvertical</string>
+	<string>structviewbuilder</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>ScrollView(.vertical, showsIndicators: false, content: {
-                    
-    VStack(spacing: 0) {
-                        
-                        ForEach(&lt;#Data#&gt;, id: \.self) { i in
-                            
-                            &lt;#Data#&gt;
-                        }
-                    }
-                    .padding(.horizontal)
-                })</string>
+	<string>struct &lt;#Object#&gt;&lt;Content: View&gt;: View {
+    
+    let content: Content
+    
+    init(@ViewBuilder content: () -&gt; Content) {
+        self.content = content()
+    }
+    
+    var body: some View {
+        
+        &lt;#content#&gt;
+    }
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>528E0C20-5CA8-4B97-AA2C-6A894529396F</string>
+	<string>556E6916-1158-4BAD-8AC3-BB8363589ED6</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>ScrollView Vertical</string>
+	<string>Struct @ViewBuilder</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
