@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>subgeometryreader</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>VStack(spacing: 0) {
+                        
+                        // FIXME: - Sub First
+                        GeometryReader { subFirst in
+                            EmptyView()
+                        }
+                        .frame(height: &lt;#proxy#&gt;.size.height * 0.1)
+                        .background(Color.red)
+                        
+                        // FIXME: - Sub Second
+                        GeometryReader { subSecond in
+                            EmptyView()
+                        }
+                        .frame(height: &lt;#proxy#&gt;.size.height * 0.1)
+                        .background(Color.yellow)
+                        
+                        // FIXME: - Sub Third
+                        GeometryReader { subThird in
+                            EmptyView()
+                        }
+                        .frame(height: &lt;#proxy#&gt;.size.height * 0.1)
+                        .background(Color.red)
+                        
+                        // FIXME: - Sub Forth
+                        GeometryReader { subForth in
+                            EmptyView()
+                        }
+                        .frame(height: &lt;#proxy#&gt;.size.height * 0.1)
+                        .background(Color.gray)
+                        
+                        // FIXME: - Sub Fifth
+                        GeometryReader { subFifth in
+                            EmptyView()
+                        }
+                        .frame(height: &lt;#proxy#&gt;.size.height * 0.6)
+                        .background(Color.red)
+                        
+                        
+                    }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>8F51A150-8EF2-4CA3-9434-C86DAB31614C</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Sub GeometryReader with VStack</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
