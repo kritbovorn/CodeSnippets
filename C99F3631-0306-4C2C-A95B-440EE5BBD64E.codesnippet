@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>structwebview</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>struct WebView: UIViewRepresentable {
+    
+    let url: String
+    
+    func makeUIView(context: Context) -&gt; some UIView {
+        let webView = WKWebView()
+        webView.load(URLRequest(url: URL(string: url)!))
+        
+        return webView
+        
+    }
+    
+    func updateUIView(_ uiView: UIViewType, context: Context) {
+        print("")
+    }
+    
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>C99F3631-0306-4C2C-A95B-440EE5BBD64E</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UIViewRepresentable</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Struct WebView  UIViewRepresentable</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
