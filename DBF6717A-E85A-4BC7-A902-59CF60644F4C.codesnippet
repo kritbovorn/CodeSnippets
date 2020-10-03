@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>shapecorner</string>
+	<string>structshapecorner</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>struct CustomCorner: Shape {
+	<string>struct CustomCornerShape: Shape {
     
     var corners: UIRectCorner
     var sizeFloat: CGFloat
