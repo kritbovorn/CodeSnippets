@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>structcustomtabviewwithviewbuilder</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>struct CustomTabViewWithViewBuilder&lt;Content: View&gt;: View {
+    
+    var imageName: String
+    var tabTitle: String
+    var index: Int
+    
+    let content: Content
+    
+    
+    init(imageName: String, tabTitle: String, index: Int, @ViewBuilder content: () -&gt; Content) {
+        self.content = content()
+        self.imageName = imageName
+        self.tabTitle = tabTitle
+        self.index = index
+    }
+    
+    var body: some View {
+        
+        VStack {
+            
+            content
+        }
+        .tabItem {
+            Image(systemName: imageName)
+            Text(tabTitle)
+        }
+        .tag(index)
+    }
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>29C0A255-C2C2-42B8-974D-ED82B71A0844</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Struct CustomTabViewWithViewBuilder()</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
