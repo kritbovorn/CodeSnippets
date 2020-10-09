@@ -9,8 +9,8 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>func proxyHeight(for metric: GeometryProxy) -&gt; CGFloat {
-        let proxyHeight = metric.size.height
+	<string>func proxyHeight(for proxy: GeometryProxy) -&gt; CGFloat {
+        let proxyHeight = proxy.size.height
         
         return proxyHeight
     }</string>
