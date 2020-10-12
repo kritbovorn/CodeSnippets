@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>                padding(.bottom, UIApplication.shared.windows.first?.safeAreaInsets.bottom == 0 ? 15 : UIApplication.shared.windows.first?.safeAreaInsets.bottom)</string>
+	<string>padding(.bottom, UIApplication.shared.windows.first?.safeAreaInsets.bottom == 0 ? 15 : UIApplication.shared.windows.first?.safeAreaInsets.bottom)</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>B186F820-DCA1-4393-A322-8C9774B31DF8</string>
 	<key>IDECodeSnippetLanguage</key>

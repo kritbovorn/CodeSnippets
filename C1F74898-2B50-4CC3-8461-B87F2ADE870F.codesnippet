@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>geometryreader2</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>GeometryReader { main in
+            VStack(spacing: 0) {
+                
+                // FIXME: - First
+                GeometryReader { first in
+                    
+                    VStack(spacing: 0) {
+                        
+                        GeometryReader { aFirst in
+                            
+                            EmptyView()
+                        }
+                        .frame(height: first.size.height * 0.5)
+                        .background(Color.blue)
+                        
+                        GeometryReader { bFirst in
+                            
+                            EmptyView()
+                        }
+                        .frame(height: first.size.height * 0.5)
+                        .background(Color.pink)
+                    }
+                }
+                .frame(height: main.size.height * 0.9)
+                .background(Color.red)
+                
+                // FIXME: - Second
+                GeometryReader { second in
+                    EmptyView()
+                }
+                .frame(height: main.size.height * 0.1)
+                .background(Color.gray)
+                
+            }
+        }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>C1F74898-2B50-4CC3-8461-B87F2ADE870F</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>มี TabBar และ Geometry ย่อยๆ  2 อัน</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>GeometryReader() : Sub Geometry 2</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
